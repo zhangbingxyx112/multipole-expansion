@@ -1,0 +1,14 @@
+% hello.tex
+\documentclass[a4paper]{article}
+    \usepackage{hyperref}
+    \title{Multipole moment}
+    \author{Zhang Bing}
+    \date{\today}
+    \begin{document}
+    \maketitle
+    \section{Spherical multipole moments of a point chagre}
+     Suppose we have a point chagre located at 
+    \textbf{r'} 
+    one
+    
+    \end{document}
