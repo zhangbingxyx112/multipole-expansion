@@ -1,10 +1,10 @@
 figure;
-for k = 1:8
+for k = 1:10
     X = 0
     Y = 0
     centers = [X Y];
     radii = 0.5;
-    subplot(2,4,k);
+    subplot(2,5,k);
     % Set the axis aspect ratio to 1:1.
      axis square
       % Clear the axes.
@@ -17,7 +17,7 @@ for k = 1:8
     viscircles(centers,radii,'Color','k','LineWidth',3);
     hold on;
     x1=0;y1=0.5;
-    st=2.0*pi/(2*(k-1));    %��ת�ĽǶ�
+    st=2.0*pi/(2*(k-1));    %Ðý×ªµÄ½Ç¶È
     flag=1;
     for i=1:2*(k-1)
     x11=x1*cos(st)-y1*sin(st);
